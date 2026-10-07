@@ -1,0 +1,129 @@
+{
+  "hash": "178cbba230991e93cc74b4a503c4b96e4c58dcafd717457a010687967512b0e7",
+  "provider_name": "claude",
+  "model_name": "claude-mock",
+  "prompt_version": "v1.0",
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "latency_ms": 0.0,
+  "model_confidence": {},
+  "change_order": {
+    "co_number": {
+      "value": "CO-777",
+      "confidence": 0.95,
+      "source_text": "CO-777",
+      "flags": []
+    },
+    "revision": {
+      "value": null,
+      "confidence": 1.0,
+      "source_text": null,
+      "flags": []
+    },
+    "date_issued": {
+      "value": null,
+      "confidence": 1.0,
+      "source_text": null,
+      "flags": []
+    },
+    "references": {
+      "value": null,
+      "confidence": 1.0,
+      "source_text": null,
+      "flags": []
+    },
+    "project_name": {
+      "value": null,
+      "confidence": 1.0,
+      "source_text": null,
+      "flags": []
+    },
+    "project_number": {
+      "value": null,
+      "confidence": 1.0,
+      "source_text": null,
+      "flags": []
+    },
+    "owner": {
+      "value": null,
+      "confidence": 1.0,
+      "source_text": null,
+      "flags": []
+    },
+    "contractor": {
+      "value": null,
+      "confidence": 1.0,
+      "source_text": null,
+      "flags": []
+    },
+    "subcontractor": {
+      "value": null,
+      "confidence": 1.0,
+      "source_text": null,
+      "flags": []
+    },
+    "reason": {
+      "value": null,
+      "confidence": 1.0,
+      "source_text": null,
+      "flags": []
+    },
+    "description": {
+      "value": null,
+      "confidence": 1.0,
+      "source_text": null,
+      "flags": []
+    },
+    "total_amount": {
+      "value": "3000.00",
+      "confidence": 0.95,
+      "source_text": "$3,000.00",
+      "flags": []
+    },
+    "currency": {
+      "value": "USD",
+      "confidence": 1.0,
+      "source_text": null,
+      "flags": []
+    },
+    "direction": {
+      "value": null,
+      "confidence": 1.0,
+      "source_text": null,
+      "flags": []
+    },
+    "original_contract_sum": {
+      "value": null,
+      "confidence": 1.0,
+      "source_text": null,
+      "flags": []
+    },
+    "revised_contract_sum": {
+      "value": null,
+      "confidence": 1.0,
+      "source_text": null,
+      "flags": []
+    },
+    "line_items": [],
+    "schedule_impact_days": {
+      "value": null,
+      "confidence": 1.0,
+      "source_text": null,
+      "flags": []
+    },
+    "new_completion_date": {
+      "value": null,
+      "confidence": 1.0,
+      "source_text": null,
+      "flags": []
+    },
+    "status": {
+      "value": null,
+      "confidence": 1.0,
+      "source_text": null,
+      "flags": []
+    },
+    "approvals": []
+  },
+  "raw_response": null
+}

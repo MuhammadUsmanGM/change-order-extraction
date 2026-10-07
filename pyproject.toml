@@ -59,6 +59,7 @@ select = [
 ]
 ignore = [
     "E501",  # line length handled by formatter
+    "B008",  # do not perform function calls in argument defaults (standard in FastAPI/Typer)
 ]
 
 [tool.pytest.ini_options]
