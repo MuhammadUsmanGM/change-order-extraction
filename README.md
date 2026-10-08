@@ -24,6 +24,8 @@ Extract a standard change-order PDF:
 co-extract run data/docs/doc_01_clean_standard.pdf --mock
 ```
 
+*(Note: You can also use `python -m co_extract.cli run data/docs/doc_01_clean_standard.pdf --mock` if CLI binaries are not on your system PATH)*
+
 To save the output to a JSON file:
 
 ```bash
