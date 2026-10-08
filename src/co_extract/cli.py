@@ -104,7 +104,7 @@ def eval_command(
             "-p",
             help="Provider to evaluate: 'claude', 'gemini', or 'both'.",
         ),
-    ] = "claude",
+    ] = "both",
     mock: Annotated[
         bool,
         typer.Option(
@@ -114,9 +114,31 @@ def eval_command(
     ] = True,
 ) -> None:
     """Evaluate pipeline accuracy and confidence calibration against synthetic ground-truth dataset."""
-    typer.echo(f"Starting evaluation suite for provider='{provider}' (mock={mock})...")
-    # Will be connected to eval runner in Phase 9
-    typer.echo("Evaluation suite ready for Phase 9 dataset execution.")
+    typer.echo(
+        f"Running evaluation benchmark on 12-doc dataset (provider={provider}, mock={mock})...\n"
+    )
+
+    # Import evaluation harness
+    from eval.run_eval import evaluate_pipeline_on_dataset, run_full_evaluation_suite
+
+    try:
+        if provider == "both":
+            reports, json_path, md_path = run_full_evaluation_suite(mock=mock)
+            typer.echo(md_path.read_text(encoding="utf-8"))
+        else:
+            report = evaluate_pipeline_on_dataset(provider=provider, mock=mock)  # type: ignore[arg-type]
+            typer.echo(f"Provider: {report.provider}")
+            typer.echo(f"  Field Accuracy: {report.field_accuracy * 100:.1f}%")
+            typer.echo(f"  Line-Item F1: {report.line_item_f1 * 100:.1f}%")
+            typer.echo(f"  Hallucination Rate: {report.hallucination_rate * 100:.1f}%")
+            typer.echo(
+                f"  Expected Calibration Error (ECE): {report.expected_calibration_error:.4f}"
+            )
+            typer.echo(f"  Defect Catch Rate: {report.validation_catch_rate * 100:.1f}%")
+            typer.echo(f"  Mean Latency: {report.mean_latency_ms:.1f} ms")
+    except Exception as err:
+        typer.echo(f"Evaluation failed: {err}", err=True)
+        raise typer.Exit(code=1) from err
 
 
 def main() -> None:

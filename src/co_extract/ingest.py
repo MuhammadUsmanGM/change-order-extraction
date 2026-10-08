@@ -141,9 +141,18 @@ def _ingest_pdf(data: bytes, filename: str) -> Document:
         pages_text.append(combined_page_text)
 
     # Check total extracted content
-    total_chars = sum(len(p) for p in pages_text)
+    total_chars = sum(len(p.strip()) for p in pages_text)
     if total_chars == 0:
-        raise EmptyDocumentError(f"PDF document '{filename}' contains no extractable text.")
+        # Check if pages contain images (scanned document)
+        has_images = any(len(p.get_images()) > 0 for p in doc)
+        if has_images:
+            warnings.append("Scanned document with images detected, but no OCR text was extracted.")
+            pages_text = [
+                "[Scanned page: OCR unavailable or produced no text]" for _ in range(len(doc))
+            ]
+            total_chars = sum(len(p) for p in pages_text)
+        else:
+            raise EmptyDocumentError(f"PDF document '{filename}' contains no extractable text.")
 
     # Build full document text with page markers
     full_text_parts: list[str] = []

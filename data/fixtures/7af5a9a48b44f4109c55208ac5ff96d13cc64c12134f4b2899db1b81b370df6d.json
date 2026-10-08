@@ -1,0 +1,332 @@
+{
+  "hash": "7af5a9a48b44f4109c55208ac5ff96d13cc64c12134f4b2899db1b81b370df6d",
+  "provider_name": "gemini",
+  "model_name": "gemini-2.5-flash",
+  "prompt_version": "v1.0",
+  "input_tokens": 420,
+  "output_tokens": 175,
+  "latency_ms": 75.0,
+  "model_confidence": {
+    "co_number": 1.0,
+    "revision": 1.0,
+    "date_issued": 1.0,
+    "references": 1.0,
+    "project_name": 1.0,
+    "project_number": 1.0,
+    "owner": 1.0,
+    "contractor": 1.0,
+    "subcontractor": 1.0,
+    "reason": 1.0,
+    "description": 1.0,
+    "total_amount": 1.0,
+    "currency": 1.0,
+    "direction": 1.0,
+    "original_contract_sum": 1.0,
+    "revised_contract_sum": 1.0,
+    "schedule_impact_days": 1.0,
+    "new_completion_date": 1.0,
+    "status": 1.0
+  },
+  "change_order": {
+    "co_number": {
+      "value": "PCO-105",
+      "confidence": 1.0,
+      "source_text": "PCO-105",
+      "flags": []
+    },
+    "revision": {
+      "value": null,
+      "confidence": 1.0,
+      "source_text": null,
+      "flags": []
+    },
+    "date_issued": {
+      "value": "2026-04-05",
+      "confidence": 1.0,
+      "source_text": "2026-04-05",
+      "flags": []
+    },
+    "references": {
+      "value": null,
+      "confidence": 1.0,
+      "source_text": null,
+      "flags": []
+    },
+    "project_name": {
+      "value": "Cityview Condos",
+      "confidence": 1.0,
+      "source_text": "Cityview Condos",
+      "flags": []
+    },
+    "project_number": {
+      "value": "CVC-55",
+      "confidence": 1.0,
+      "source_text": "CVC-55",
+      "flags": []
+    },
+    "owner": {
+      "value": null,
+      "confidence": 1.0,
+      "source_text": null,
+      "flags": []
+    },
+    "contractor": {
+      "value": "Prime Construction",
+      "confidence": 1.0,
+      "source_text": "Prime Construction",
+      "flags": []
+    },
+    "subcontractor": {
+      "value": null,
+      "confidence": 1.0,
+      "source_text": null,
+      "flags": []
+    },
+    "reason": {
+      "value": null,
+      "confidence": 1.0,
+      "source_text": null,
+      "flags": []
+    },
+    "description": {
+      "value": null,
+      "confidence": 1.0,
+      "source_text": null,
+      "flags": []
+    },
+    "total_amount": {
+      "value": "10000.00",
+      "confidence": 1.0,
+      "source_text": "$10,000.00",
+      "flags": []
+    },
+    "currency": {
+      "value": "USD",
+      "confidence": 1.0,
+      "source_text": null,
+      "flags": []
+    },
+    "direction": {
+      "value": "increase",
+      "confidence": 1.0,
+      "source_text": null,
+      "flags": []
+    },
+    "original_contract_sum": {
+      "value": null,
+      "confidence": 1.0,
+      "source_text": null,
+      "flags": []
+    },
+    "revised_contract_sum": {
+      "value": null,
+      "confidence": 1.0,
+      "source_text": null,
+      "flags": []
+    },
+    "line_items": [
+      {
+        "description": {
+          "value": "Plumbing rough-in relocation",
+          "confidence": 1.0,
+          "source_text": "Plumbing rough-in relocation",
+          "flags": []
+        },
+        "quantity": {
+          "value": "1.00",
+          "confidence": 1.0,
+          "source_text": "1.00",
+          "flags": []
+        },
+        "unit": {
+          "value": null,
+          "confidence": 1.0,
+          "source_text": null,
+          "flags": []
+        },
+        "unit_price": {
+          "value": "4500.00",
+          "confidence": 1.0,
+          "source_text": "$4,500.00",
+          "flags": []
+        },
+        "amount": {
+          "value": "4500.00",
+          "confidence": 1.0,
+          "source_text": "$4,500.00",
+          "flags": []
+        },
+        "cost_code": {
+          "value": null,
+          "confidence": 1.0,
+          "source_text": null,
+          "flags": []
+        }
+      },
+      {
+        "description": {
+          "value": "Floor drain additions",
+          "confidence": 1.0,
+          "source_text": "Floor drain additions",
+          "flags": []
+        },
+        "quantity": {
+          "value": "2.00",
+          "confidence": 1.0,
+          "source_text": "2.00",
+          "flags": []
+        },
+        "unit": {
+          "value": null,
+          "confidence": 1.0,
+          "source_text": null,
+          "flags": []
+        },
+        "unit_price": {
+          "value": "1200.00",
+          "confidence": 1.0,
+          "source_text": "$1,200.00",
+          "flags": []
+        },
+        "amount": {
+          "value": "2400.00",
+          "confidence": 1.0,
+          "source_text": "$2,400.00",
+          "flags": []
+        },
+        "cost_code": {
+          "value": null,
+          "confidence": 1.0,
+          "source_text": null,
+          "flags": []
+        }
+      },
+      {
+        "description": {
+          "value": "Vent stack re-routing",
+          "confidence": 1.0,
+          "source_text": "Vent stack re-routing",
+          "flags": []
+        },
+        "quantity": {
+          "value": "1.00",
+          "confidence": 1.0,
+          "source_text": "1.00",
+          "flags": []
+        },
+        "unit": {
+          "value": null,
+          "confidence": 1.0,
+          "source_text": null,
+          "flags": []
+        },
+        "unit_price": {
+          "value": "2100.00",
+          "confidence": 1.0,
+          "source_text": "$2,100.00",
+          "flags": []
+        },
+        "amount": {
+          "value": "2100.00",
+          "confidence": 1.0,
+          "source_text": "$2,100.00",
+          "flags": []
+        },
+        "cost_code": {
+          "value": null,
+          "confidence": 1.0,
+          "source_text": null,
+          "flags": []
+        }
+      },
+      {
+        "description": {
+          "value": "Cleanout access panels",
+          "confidence": 1.0,
+          "source_text": "Cleanout access panels",
+          "flags": []
+        },
+        "quantity": {
+          "value": "4.00",
+          "confidence": 1.0,
+          "source_text": "4.00",
+          "flags": []
+        },
+        "unit": {
+          "value": null,
+          "confidence": 1.0,
+          "source_text": null,
+          "flags": []
+        },
+        "unit_price": {
+          "value": "250.00",
+          "confidence": 1.0,
+          "source_text": "$250.00",
+          "flags": []
+        },
+        "amount": {
+          "value": "1000.00",
+          "confidence": 1.0,
+          "source_text": "$1,000.00",
+          "flags": []
+        },
+        "cost_code": {
+          "value": null,
+          "confidence": 1.0,
+          "source_text": null,
+          "flags": []
+        }
+      }
+    ],
+    "schedule_impact_days": {
+      "value": null,
+      "confidence": 1.0,
+      "source_text": null,
+      "flags": []
+    },
+    "new_completion_date": {
+      "value": null,
+      "confidence": 1.0,
+      "source_text": null,
+      "flags": []
+    },
+    "status": {
+      "value": "approved",
+      "confidence": 1.0,
+      "source_text": "APPROVED",
+      "flags": []
+    },
+    "approvals": [
+      {
+        "name": {
+          "value": "Dave Miller",
+          "confidence": 1.0,
+          "source_text": "Dave Miller",
+          "flags": []
+        },
+        "role": {
+          "value": "Contractor Rep",
+          "confidence": 1.0,
+          "source_text": "Contractor Rep",
+          "flags": []
+        },
+        "date": {
+          "value": "2026-04-06",
+          "confidence": 1.0,
+          "source_text": "2026-04-06",
+          "flags": []
+        },
+        "signed": {
+          "value": true,
+          "confidence": 1.0,
+          "source_text": "Signed",
+          "flags": []
+        }
+      }
+    ]
+  },
+  "raw_response": {
+    "provider": "gemini",
+    "case": 5
+  }
+}

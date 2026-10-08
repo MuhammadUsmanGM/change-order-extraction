@@ -66,4 +66,5 @@ def test_cli_eval_command():
     """Verify eval command executes cleanly."""
     result = runner.invoke(app, ["eval", "--provider", "claude", "--mock"])
     assert result.exit_code == 0
-    assert "evaluation suite" in result.output.lower()
+    assert "evaluation benchmark" in result.output.lower()
+    assert "field accuracy" in result.output.lower()

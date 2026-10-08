@@ -1,0 +1,152 @@
+{
+  "hash": "1ea09c2cf972ca604666631a384c3518b5274432b3f4398370169ef0fdfaf65d",
+  "provider_name": "gemini",
+  "model_name": "gemini-2.5-flash",
+  "prompt_version": "v1.0",
+  "input_tokens": 420,
+  "output_tokens": 175,
+  "latency_ms": 75.0,
+  "model_confidence": {
+    "co_number": 1.0,
+    "revision": 1.0,
+    "date_issued": 1.0,
+    "references": 1.0,
+    "project_name": 1.0,
+    "project_number": 1.0,
+    "owner": 1.0,
+    "contractor": 1.0,
+    "subcontractor": 1.0,
+    "reason": 1.0,
+    "description": 1.0,
+    "total_amount": 1.0,
+    "currency": 1.0,
+    "direction": 1.0,
+    "original_contract_sum": 1.0,
+    "revised_contract_sum": 1.0,
+    "schedule_impact_days": 1.0,
+    "new_completion_date": 1.0,
+    "status": 1.0
+  },
+  "change_order": {
+    "co_number": {
+      "value": "COR-044",
+      "confidence": 1.0,
+      "source_text": "COR-044",
+      "flags": []
+    },
+    "revision": {
+      "value": null,
+      "confidence": 1.0,
+      "source_text": null,
+      "flags": []
+    },
+    "date_issued": {
+      "value": "2026-04-10",
+      "confidence": 1.0,
+      "source_text": "April 10, 2026",
+      "flags": []
+    },
+    "references": {
+      "value": null,
+      "confidence": 1.0,
+      "source_text": null,
+      "flags": []
+    },
+    "project_name": {
+      "value": "Oakridge Plaza",
+      "confidence": 1.0,
+      "source_text": "Oakridge Plaza",
+      "flags": []
+    },
+    "project_number": {
+      "value": "OKR-99",
+      "confidence": 1.0,
+      "source_text": "OKR-99",
+      "flags": []
+    },
+    "owner": {
+      "value": null,
+      "confidence": 1.0,
+      "source_text": null,
+      "flags": []
+    },
+    "contractor": {
+      "value": "Apex Construction Services",
+      "confidence": 1.0,
+      "source_text": "Apex Construction Services",
+      "flags": []
+    },
+    "subcontractor": {
+      "value": "Voltage Pro Electrical",
+      "confidence": 1.0,
+      "source_text": "Voltage Pro Electrical",
+      "flags": []
+    },
+    "reason": {
+      "value": null,
+      "confidence": 1.0,
+      "source_text": null,
+      "flags": []
+    },
+    "description": {
+      "value": "Install 2 additional 20A dedicated lighting circuits in the retail corridor.",
+      "confidence": 1.0,
+      "source_text": "Install 2 additional 20A dedicated lighting circuits",
+      "flags": []
+    },
+    "total_amount": {
+      "value": "3250.00",
+      "confidence": 1.0,
+      "source_text": "$3,250.00",
+      "flags": []
+    },
+    "currency": {
+      "value": "USD",
+      "confidence": 1.0,
+      "source_text": null,
+      "flags": []
+    },
+    "direction": {
+      "value": "increase",
+      "confidence": 1.0,
+      "source_text": null,
+      "flags": []
+    },
+    "original_contract_sum": {
+      "value": "420000.00",
+      "confidence": 1.0,
+      "source_text": "$420,000.00",
+      "flags": []
+    },
+    "revised_contract_sum": {
+      "value": "423250.00",
+      "confidence": 1.0,
+      "source_text": "$423,250.00",
+      "flags": []
+    },
+    "line_items": [],
+    "schedule_impact_days": {
+      "value": 2,
+      "confidence": 1.0,
+      "source_text": "2 days added",
+      "flags": []
+    },
+    "new_completion_date": {
+      "value": null,
+      "confidence": 1.0,
+      "source_text": null,
+      "flags": []
+    },
+    "status": {
+      "value": "pending",
+      "confidence": 1.0,
+      "source_text": "Pending",
+      "flags": []
+    },
+    "approvals": []
+  },
+  "raw_response": {
+    "provider": "gemini",
+    "case": 3
+  }
+}

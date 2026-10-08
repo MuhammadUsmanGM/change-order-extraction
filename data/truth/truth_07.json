@@ -1,0 +1,233 @@
+{
+  "co_number": {
+    "value": "CO-007",
+    "confidence": 1.0,
+    "source_text": "CO-007",
+    "flags": []
+  },
+  "revision": {
+    "value": null,
+    "confidence": 1.0,
+    "source_text": null,
+    "flags": []
+  },
+  "date_issued": {
+    "value": "2026-04-12",
+    "confidence": 1.0,
+    "source_text": "2026-04-12",
+    "flags": []
+  },
+  "references": {
+    "value": null,
+    "confidence": 1.0,
+    "source_text": null,
+    "flags": []
+  },
+  "project_name": {
+    "value": "Lakeside Pavilion",
+    "confidence": 1.0,
+    "source_text": "Lakeside Pavilion",
+    "flags": []
+  },
+  "project_number": {
+    "value": "LSP-88",
+    "confidence": 1.0,
+    "source_text": "LSP-88",
+    "flags": []
+  },
+  "owner": {
+    "value": null,
+    "confidence": 1.0,
+    "source_text": null,
+    "flags": []
+  },
+  "contractor": {
+    "value": null,
+    "confidence": 1.0,
+    "source_text": null,
+    "flags": []
+  },
+  "subcontractor": {
+    "value": null,
+    "confidence": 1.0,
+    "source_text": null,
+    "flags": []
+  },
+  "reason": {
+    "value": null,
+    "confidence": 1.0,
+    "source_text": null,
+    "flags": []
+  },
+  "description": {
+    "value": null,
+    "confidence": 1.0,
+    "source_text": null,
+    "flags": []
+  },
+  "total_amount": {
+    "value": "18500.00",
+    "confidence": 1.0,
+    "source_text": "$18,500.00",
+    "flags": []
+  },
+  "currency": {
+    "value": "USD",
+    "confidence": 1.0,
+    "source_text": null,
+    "flags": []
+  },
+  "direction": {
+    "value": "increase",
+    "confidence": 1.0,
+    "source_text": null,
+    "flags": []
+  },
+  "original_contract_sum": {
+    "value": null,
+    "confidence": 1.0,
+    "source_text": null,
+    "flags": []
+  },
+  "revised_contract_sum": {
+    "value": null,
+    "confidence": 1.0,
+    "source_text": null,
+    "flags": []
+  },
+  "line_items": [
+    {
+      "description": {
+        "value": "Timber beams",
+        "confidence": 1.0,
+        "source_text": "Timber beams",
+        "flags": []
+      },
+      "quantity": {
+        "value": null,
+        "confidence": 1.0,
+        "source_text": null,
+        "flags": []
+      },
+      "unit": {
+        "value": null,
+        "confidence": 1.0,
+        "source_text": null,
+        "flags": []
+      },
+      "unit_price": {
+        "value": null,
+        "confidence": 1.0,
+        "source_text": null,
+        "flags": []
+      },
+      "amount": {
+        "value": "5000.00",
+        "confidence": 1.0,
+        "source_text": "$5,000.00",
+        "flags": []
+      },
+      "cost_code": {
+        "value": null,
+        "confidence": 1.0,
+        "source_text": null,
+        "flags": []
+      }
+    },
+    {
+      "description": {
+        "value": "Steel brackets",
+        "confidence": 1.0,
+        "source_text": "Steel brackets",
+        "flags": []
+      },
+      "quantity": {
+        "value": null,
+        "confidence": 1.0,
+        "source_text": null,
+        "flags": []
+      },
+      "unit": {
+        "value": null,
+        "confidence": 1.0,
+        "source_text": null,
+        "flags": []
+      },
+      "unit_price": {
+        "value": null,
+        "confidence": 1.0,
+        "source_text": null,
+        "flags": []
+      },
+      "amount": {
+        "value": "6000.00",
+        "confidence": 1.0,
+        "source_text": "$6,000.00",
+        "flags": []
+      },
+      "cost_code": {
+        "value": null,
+        "confidence": 1.0,
+        "source_text": null,
+        "flags": []
+      }
+    },
+    {
+      "description": {
+        "value": "Labor installation",
+        "confidence": 1.0,
+        "source_text": "Labor installation",
+        "flags": []
+      },
+      "quantity": {
+        "value": null,
+        "confidence": 1.0,
+        "source_text": null,
+        "flags": []
+      },
+      "unit": {
+        "value": null,
+        "confidence": 1.0,
+        "source_text": null,
+        "flags": []
+      },
+      "unit_price": {
+        "value": null,
+        "confidence": 1.0,
+        "source_text": null,
+        "flags": []
+      },
+      "amount": {
+        "value": "4000.00",
+        "confidence": 1.0,
+        "source_text": "$4,000.00",
+        "flags": []
+      },
+      "cost_code": {
+        "value": null,
+        "confidence": 1.0,
+        "source_text": null,
+        "flags": []
+      }
+    }
+  ],
+  "schedule_impact_days": {
+    "value": null,
+    "confidence": 1.0,
+    "source_text": null,
+    "flags": []
+  },
+  "new_completion_date": {
+    "value": null,
+    "confidence": 1.0,
+    "source_text": null,
+    "flags": []
+  },
+  "status": {
+    "value": "pending",
+    "confidence": 1.0,
+    "source_text": "PENDING",
+    "flags": []
+  },
+  "approvals": []
+}

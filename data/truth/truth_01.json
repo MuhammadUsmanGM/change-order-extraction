@@ -1,0 +1,148 @@
+{
+  "co_number": {
+    "value": "CO-001",
+    "confidence": 1.0,
+    "source_text": "CO-001",
+    "flags": []
+  },
+  "revision": {
+    "value": null,
+    "confidence": 1.0,
+    "source_text": null,
+    "flags": []
+  },
+  "date_issued": {
+    "value": "2026-03-15",
+    "confidence": 1.0,
+    "source_text": "2026-03-15",
+    "flags": []
+  },
+  "references": {
+    "value": [
+      "RFI-012",
+      "PCO-004"
+    ],
+    "confidence": 1.0,
+    "source_text": "RFI-012, PCO-004",
+    "flags": []
+  },
+  "project_name": {
+    "value": "Horizon Medical Center",
+    "confidence": 1.0,
+    "source_text": "Horizon Medical Center",
+    "flags": []
+  },
+  "project_number": {
+    "value": "PRJ-2026-HMC",
+    "confidence": 1.0,
+    "source_text": "PRJ-2026-HMC",
+    "flags": []
+  },
+  "owner": {
+    "value": "Horizon Healthcare Partners",
+    "confidence": 1.0,
+    "source_text": "Horizon Healthcare Partners",
+    "flags": []
+  },
+  "contractor": {
+    "value": "BuildWell Construction Co.",
+    "confidence": 1.0,
+    "source_text": "BuildWell Construction Co.",
+    "flags": []
+  },
+  "subcontractor": {
+    "value": null,
+    "confidence": 1.0,
+    "source_text": null,
+    "flags": []
+  },
+  "reason": {
+    "value": null,
+    "confidence": 1.0,
+    "source_text": null,
+    "flags": []
+  },
+  "description": {
+    "value": "Furnish and install additional seismic bracing and ductwork reinforcement on the 3rd floor surgical suites per revised structural drawings S-301.",
+    "confidence": 1.0,
+    "source_text": "Furnish and install additional seismic bracing",
+    "flags": []
+  },
+  "total_amount": {
+    "value": "18450.00",
+    "confidence": 1.0,
+    "source_text": "$18,450.00",
+    "flags": []
+  },
+  "currency": {
+    "value": "USD",
+    "confidence": 1.0,
+    "source_text": null,
+    "flags": []
+  },
+  "direction": {
+    "value": "increase",
+    "confidence": 1.0,
+    "source_text": null,
+    "flags": []
+  },
+  "original_contract_sum": {
+    "value": "1250000.00",
+    "confidence": 1.0,
+    "source_text": "$1,250,000.00",
+    "flags": []
+  },
+  "revised_contract_sum": {
+    "value": "1268450.00",
+    "confidence": 1.0,
+    "source_text": "$1,268,450.00",
+    "flags": []
+  },
+  "line_items": [],
+  "schedule_impact_days": {
+    "value": 5,
+    "confidence": 1.0,
+    "source_text": "5 calendar days",
+    "flags": []
+  },
+  "new_completion_date": {
+    "value": "2026-11-20",
+    "confidence": 1.0,
+    "source_text": "2026-11-20",
+    "flags": []
+  },
+  "status": {
+    "value": "approved",
+    "confidence": 1.0,
+    "source_text": "APPROVED",
+    "flags": []
+  },
+  "approvals": [
+    {
+      "name": {
+        "value": "Robert Chen",
+        "confidence": 1.0,
+        "source_text": "Robert Chen",
+        "flags": []
+      },
+      "role": {
+        "value": "Owner Representative",
+        "confidence": 1.0,
+        "source_text": "Owner Representative",
+        "flags": []
+      },
+      "date": {
+        "value": "2026-03-18",
+        "confidence": 1.0,
+        "source_text": "2026-03-18",
+        "flags": []
+      },
+      "signed": {
+        "value": true,
+        "confidence": 1.0,
+        "source_text": "(Signed)",
+        "flags": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,152 @@
+{
+  "hash": "c5f2802ea6fb0d0e5eb9cabbe4d24b90ba2a792e11e1a366cad7407675eacc5f",
+  "provider_name": "claude",
+  "model_name": "claude-3-7-sonnet-20250219",
+  "prompt_version": "v1.0",
+  "input_tokens": 450,
+  "output_tokens": 180,
+  "latency_ms": 85.0,
+  "model_confidence": {
+    "co_number": 1.0,
+    "revision": 1.0,
+    "date_issued": 1.0,
+    "references": 1.0,
+    "project_name": 1.0,
+    "project_number": 1.0,
+    "owner": 1.0,
+    "contractor": 1.0,
+    "subcontractor": 1.0,
+    "reason": 1.0,
+    "description": 1.0,
+    "total_amount": 1.0,
+    "currency": 1.0,
+    "direction": 1.0,
+    "original_contract_sum": 1.0,
+    "revised_contract_sum": 1.0,
+    "schedule_impact_days": 1.0,
+    "new_completion_date": 1.0,
+    "status": 1.0
+  },
+  "change_order": {
+    "co_number": {
+      "value": "CO-011",
+      "confidence": 1.0,
+      "source_text": "CO-011",
+      "flags": []
+    },
+    "revision": {
+      "value": null,
+      "confidence": 1.0,
+      "source_text": null,
+      "flags": []
+    },
+    "date_issued": {
+      "value": "2026-04-10",
+      "confidence": 1.0,
+      "source_text": "2026-04-10",
+      "flags": []
+    },
+    "references": {
+      "value": null,
+      "confidence": 1.0,
+      "source_text": null,
+      "flags": []
+    },
+    "project_name": {
+      "value": "Riverfront Plaza",
+      "confidence": 1.0,
+      "source_text": "Riverfront Plaza",
+      "flags": []
+    },
+    "project_number": {
+      "value": "RFP-12",
+      "confidence": 1.0,
+      "source_text": "RFP-12",
+      "flags": []
+    },
+    "owner": {
+      "value": null,
+      "confidence": 1.0,
+      "source_text": null,
+      "flags": []
+    },
+    "contractor": {
+      "value": "Alpha Structural",
+      "confidence": 1.0,
+      "source_text": "Alpha Structural",
+      "flags": []
+    },
+    "subcontractor": {
+      "value": null,
+      "confidence": 1.0,
+      "source_text": null,
+      "flags": []
+    },
+    "reason": {
+      "value": null,
+      "confidence": 1.0,
+      "source_text": null,
+      "flags": []
+    },
+    "description": {
+      "value": "Additional structural steel welds with extended inspection hours.",
+      "confidence": 1.0,
+      "source_text": "structural steel welds",
+      "flags": []
+    },
+    "total_amount": {
+      "value": "12500.00",
+      "confidence": 1.0,
+      "source_text": "$12,500.00",
+      "flags": []
+    },
+    "currency": {
+      "value": "USD",
+      "confidence": 1.0,
+      "source_text": null,
+      "flags": []
+    },
+    "direction": {
+      "value": "increase",
+      "confidence": 1.0,
+      "source_text": null,
+      "flags": []
+    },
+    "original_contract_sum": {
+      "value": null,
+      "confidence": 1.0,
+      "source_text": null,
+      "flags": []
+    },
+    "revised_contract_sum": {
+      "value": null,
+      "confidence": 1.0,
+      "source_text": null,
+      "flags": []
+    },
+    "line_items": [],
+    "schedule_impact_days": {
+      "value": null,
+      "confidence": 1.0,
+      "source_text": null,
+      "flags": []
+    },
+    "new_completion_date": {
+      "value": null,
+      "confidence": 1.0,
+      "source_text": null,
+      "flags": []
+    },
+    "status": {
+      "value": "approved",
+      "confidence": 1.0,
+      "source_text": "APPROVED",
+      "flags": []
+    },
+    "approvals": []
+  },
+  "raw_response": {
+    "provider": "claude",
+    "case": 11
+  }
+}

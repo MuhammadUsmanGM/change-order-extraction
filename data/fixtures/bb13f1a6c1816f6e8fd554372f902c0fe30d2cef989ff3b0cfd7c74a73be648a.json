@@ -1,0 +1,179 @@
+{
+  "hash": "bb13f1a6c1816f6e8fd554372f902c0fe30d2cef989ff3b0cfd7c74a73be648a",
+  "provider_name": "gemini",
+  "model_name": "gemini-2.5-flash",
+  "prompt_version": "v1.0",
+  "input_tokens": 420,
+  "output_tokens": 175,
+  "latency_ms": 75.0,
+  "model_confidence": {
+    "co_number": 1.0,
+    "revision": 1.0,
+    "date_issued": 1.0,
+    "references": 1.0,
+    "project_name": 1.0,
+    "project_number": 1.0,
+    "owner": 1.0,
+    "contractor": 1.0,
+    "subcontractor": 1.0,
+    "reason": 1.0,
+    "description": 1.0,
+    "total_amount": 1.0,
+    "currency": 1.0,
+    "direction": 1.0,
+    "original_contract_sum": 1.0,
+    "revised_contract_sum": 1.0,
+    "schedule_impact_days": 1.0,
+    "new_completion_date": 1.0,
+    "status": 1.0
+  },
+  "change_order": {
+    "co_number": {
+      "value": "CO-010",
+      "confidence": 1.0,
+      "source_text": "CO-010",
+      "flags": []
+    },
+    "revision": {
+      "value": null,
+      "confidence": 1.0,
+      "source_text": null,
+      "flags": []
+    },
+    "date_issued": {
+      "value": "2026-04-15",
+      "confidence": 1.0,
+      "source_text": "15/04/2026",
+      "flags": []
+    },
+    "references": {
+      "value": null,
+      "confidence": 1.0,
+      "source_text": null,
+      "flags": []
+    },
+    "project_name": {
+      "value": "EuroTech Campus",
+      "confidence": 1.0,
+      "source_text": "EuroTech Campus",
+      "flags": []
+    },
+    "project_number": {
+      "value": "ETC-404",
+      "confidence": 1.0,
+      "source_text": "ETC-404",
+      "flags": []
+    },
+    "owner": {
+      "value": null,
+      "confidence": 1.0,
+      "source_text": null,
+      "flags": []
+    },
+    "contractor": {
+      "value": "Batiment Moderne SAS",
+      "confidence": 1.0,
+      "source_text": "Batiment Moderne SAS",
+      "flags": []
+    },
+    "subcontractor": {
+      "value": null,
+      "confidence": 1.0,
+      "source_text": null,
+      "flags": []
+    },
+    "reason": {
+      "value": null,
+      "confidence": 1.0,
+      "source_text": null,
+      "flags": []
+    },
+    "description": {
+      "value": null,
+      "confidence": 1.0,
+      "source_text": null,
+      "flags": []
+    },
+    "total_amount": {
+      "value": "14500.00",
+      "confidence": 1.0,
+      "source_text": "14.500,00 EUR",
+      "flags": []
+    },
+    "currency": {
+      "value": "EUR",
+      "confidence": 1.0,
+      "source_text": "EUR",
+      "flags": []
+    },
+    "direction": {
+      "value": "increase",
+      "confidence": 1.0,
+      "source_text": null,
+      "flags": []
+    },
+    "original_contract_sum": {
+      "value": "200000.00",
+      "confidence": 1.0,
+      "source_text": "200.000,00 EUR",
+      "flags": []
+    },
+    "revised_contract_sum": {
+      "value": "214500.00",
+      "confidence": 1.0,
+      "source_text": "214.500,00 EUR",
+      "flags": []
+    },
+    "line_items": [],
+    "schedule_impact_days": {
+      "value": null,
+      "confidence": 1.0,
+      "source_text": null,
+      "flags": []
+    },
+    "new_completion_date": {
+      "value": null,
+      "confidence": 1.0,
+      "source_text": null,
+      "flags": []
+    },
+    "status": {
+      "value": "approved",
+      "confidence": 1.0,
+      "source_text": "APPROVED",
+      "flags": []
+    },
+    "approvals": [
+      {
+        "name": {
+          "value": "Pierre Dupont",
+          "confidence": 1.0,
+          "source_text": "Pierre Dupont",
+          "flags": []
+        },
+        "role": {
+          "value": null,
+          "confidence": 1.0,
+          "source_text": null,
+          "flags": []
+        },
+        "date": {
+          "value": "2026-04-18",
+          "confidence": 1.0,
+          "source_text": "18/04/2026",
+          "flags": []
+        },
+        "signed": {
+          "value": true,
+          "confidence": 1.0,
+          "source_text": "Signe",
+          "flags": []
+        }
+      }
+    ]
+  },
+  "raw_response": {
+    "provider": "gemini",
+    "case": 10
+  }
+}

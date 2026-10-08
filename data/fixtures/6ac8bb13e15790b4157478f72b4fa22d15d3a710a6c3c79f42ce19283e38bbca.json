@@ -1,0 +1,152 @@
+{
+  "hash": "6ac8bb13e15790b4157478f72b4fa22d15d3a710a6c3c79f42ce19283e38bbca",
+  "provider_name": "gemini",
+  "model_name": "gemini-2.5-flash",
+  "prompt_version": "v1.0",
+  "input_tokens": 420,
+  "output_tokens": 175,
+  "latency_ms": 75.0,
+  "model_confidence": {
+    "co_number": 1.0,
+    "revision": 1.0,
+    "date_issued": 1.0,
+    "references": 1.0,
+    "project_name": 1.0,
+    "project_number": 1.0,
+    "owner": 1.0,
+    "contractor": 1.0,
+    "subcontractor": 1.0,
+    "reason": 1.0,
+    "description": 1.0,
+    "total_amount": 1.0,
+    "currency": 1.0,
+    "direction": 1.0,
+    "original_contract_sum": 1.0,
+    "revised_contract_sum": 1.0,
+    "schedule_impact_days": 1.0,
+    "new_completion_date": 1.0,
+    "status": 1.0
+  },
+  "change_order": {
+    "co_number": {
+      "value": "CO-008",
+      "confidence": 1.0,
+      "source_text": "CO-008",
+      "flags": []
+    },
+    "revision": {
+      "value": null,
+      "confidence": 1.0,
+      "source_text": null,
+      "flags": []
+    },
+    "date_issued": {
+      "value": null,
+      "confidence": 1.0,
+      "source_text": null,
+      "flags": []
+    },
+    "references": {
+      "value": null,
+      "confidence": 1.0,
+      "source_text": null,
+      "flags": []
+    },
+    "project_name": {
+      "value": "Cedar Glen Warehouse",
+      "confidence": 1.0,
+      "source_text": "Cedar Glen Warehouse",
+      "flags": []
+    },
+    "project_number": {
+      "value": null,
+      "confidence": 1.0,
+      "source_text": null,
+      "flags": []
+    },
+    "owner": {
+      "value": null,
+      "confidence": 1.0,
+      "source_text": null,
+      "flags": []
+    },
+    "contractor": {
+      "value": "Apex Group",
+      "confidence": 1.0,
+      "source_text": "Apex Group",
+      "flags": []
+    },
+    "subcontractor": {
+      "value": null,
+      "confidence": 1.0,
+      "source_text": null,
+      "flags": []
+    },
+    "reason": {
+      "value": null,
+      "confidence": 1.0,
+      "source_text": null,
+      "flags": []
+    },
+    "description": {
+      "value": "Repair loading dock concrete crack.",
+      "confidence": 1.0,
+      "source_text": "Repair loading dock concrete crack",
+      "flags": []
+    },
+    "total_amount": {
+      "value": "2800.00",
+      "confidence": 1.0,
+      "source_text": "$2,800.00",
+      "flags": []
+    },
+    "currency": {
+      "value": "USD",
+      "confidence": 1.0,
+      "source_text": null,
+      "flags": []
+    },
+    "direction": {
+      "value": "increase",
+      "confidence": 1.0,
+      "source_text": null,
+      "flags": []
+    },
+    "original_contract_sum": {
+      "value": null,
+      "confidence": 1.0,
+      "source_text": null,
+      "flags": []
+    },
+    "revised_contract_sum": {
+      "value": null,
+      "confidence": 1.0,
+      "source_text": null,
+      "flags": []
+    },
+    "line_items": [],
+    "schedule_impact_days": {
+      "value": null,
+      "confidence": 1.0,
+      "source_text": null,
+      "flags": []
+    },
+    "new_completion_date": {
+      "value": null,
+      "confidence": 1.0,
+      "source_text": null,
+      "flags": []
+    },
+    "status": {
+      "value": "draft",
+      "confidence": 1.0,
+      "source_text": null,
+      "flags": []
+    },
+    "approvals": []
+  },
+  "raw_response": {
+    "provider": "gemini",
+    "case": 8
+  }
+}

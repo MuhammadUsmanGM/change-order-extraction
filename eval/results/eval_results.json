@@ -1,0 +1,116 @@
+{
+  "claude": {
+    "provider": "claude",
+    "total_documents": 12,
+    "total_fields_evaluated": 129,
+    "field_accuracy": 1.0,
+    "hallucination_rate": 0.0,
+    "line_item_precision": 1.0,
+    "line_item_recall": 1.0,
+    "line_item_f1": 1.0,
+    "validation_catch_rate": 1.0,
+    "expected_calibration_error": 0.2127,
+    "calibration_buckets": [
+      {
+        "bin_range": "0.00 - 0.60 (Reject)",
+        "sample_count": 23,
+        "mean_confidence": 0.3,
+        "accuracy": 1.0,
+        "calibration_error": 0.7
+      },
+      {
+        "bin_range": "0.60 - 0.85 (Needs Review)",
+        "sample_count": 2,
+        "mean_confidence": 0.65,
+        "accuracy": 1.0,
+        "calibration_error": 0.35
+      },
+      {
+        "bin_range": "0.85 - 1.00 (Auto Accept)",
+        "sample_count": 104,
+        "mean_confidence": 0.8977,
+        "accuracy": 1.0,
+        "calibration_error": 0.1023
+      }
+    ],
+    "mean_latency_ms": 20.01,
+    "total_tokens_consumed": 7200,
+    "agreement_rate": null
+  },
+  "gemini": {
+    "provider": "gemini",
+    "total_documents": 12,
+    "total_fields_evaluated": 129,
+    "field_accuracy": 1.0,
+    "hallucination_rate": 0.0,
+    "line_item_precision": 1.0,
+    "line_item_recall": 1.0,
+    "line_item_f1": 1.0,
+    "validation_catch_rate": 1.0,
+    "expected_calibration_error": 0.2129,
+    "calibration_buckets": [
+      {
+        "bin_range": "0.00 - 0.60 (Reject)",
+        "sample_count": 23,
+        "mean_confidence": 0.3,
+        "accuracy": 1.0,
+        "calibration_error": 0.7
+      },
+      {
+        "bin_range": "0.60 - 0.85 (Needs Review)",
+        "sample_count": 2,
+        "mean_confidence": 0.65,
+        "accuracy": 1.0,
+        "calibration_error": 0.35
+      },
+      {
+        "bin_range": "0.85 - 1.00 (Auto Accept)",
+        "sample_count": 104,
+        "mean_confidence": 0.8974,
+        "accuracy": 1.0,
+        "calibration_error": 0.1026
+      }
+    ],
+    "mean_latency_ms": 19.8,
+    "total_tokens_consumed": 7200,
+    "agreement_rate": null
+  },
+  "both": {
+    "provider": "both",
+    "total_documents": 12,
+    "total_fields_evaluated": 129,
+    "field_accuracy": 1.0,
+    "hallucination_rate": 0.0,
+    "line_item_precision": 1.0,
+    "line_item_recall": 1.0,
+    "line_item_f1": 1.0,
+    "validation_catch_rate": 1.0,
+    "expected_calibration_error": 0.1305,
+    "calibration_buckets": [
+      {
+        "bin_range": "0.00 - 0.60 (Reject)",
+        "sample_count": 23,
+        "mean_confidence": 0.3,
+        "accuracy": 1.0,
+        "calibration_error": 0.7
+      },
+      {
+        "bin_range": "0.60 - 0.85 (Needs Review)",
+        "sample_count": 2,
+        "mean_confidence": 0.75,
+        "accuracy": 1.0,
+        "calibration_error": 0.25
+      },
+      {
+        "bin_range": "0.85 - 1.00 (Auto Accept)",
+        "sample_count": 104,
+        "mean_confidence": 0.9977,
+        "accuracy": 1.0,
+        "calibration_error": 0.0023
+      }
+    ],
+    "mean_latency_ms": 19.48,
+    "total_tokens_consumed": 7200,
+    "agreement_rate": 1.0
+  }
+}

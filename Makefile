@@ -3,14 +3,14 @@
 check: lint format-check test
 
 lint:
-	ruff check src tests
+	ruff check src tests eval data
 
 format-check:
-	ruff format --check src tests
+	ruff format --check src tests eval data
 
 fix:
-	ruff check --fix src tests
-	ruff format src tests
+	ruff check --fix src tests eval data
+	ruff format src tests eval data
 
 test:
 	pytest tests/

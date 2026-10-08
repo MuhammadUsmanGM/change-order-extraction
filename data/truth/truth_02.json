@@ -1,0 +1,271 @@
+{
+  "co_number": {
+    "value": "002",
+    "confidence": 1.0,
+    "source_text": "002",
+    "flags": []
+  },
+  "revision": {
+    "value": null,
+    "confidence": 1.0,
+    "source_text": null,
+    "flags": []
+  },
+  "date_issued": {
+    "value": "2026-04-02",
+    "confidence": 1.0,
+    "source_text": "2026-04-02",
+    "flags": []
+  },
+  "references": {
+    "value": null,
+    "confidence": 1.0,
+    "source_text": null,
+    "flags": []
+  },
+  "project_name": {
+    "value": "Grand Central Hotel",
+    "confidence": 1.0,
+    "source_text": "Grand Central Hotel",
+    "flags": []
+  },
+  "project_number": {
+    "value": "GCH-2025",
+    "confidence": 1.0,
+    "source_text": "GCH-2025",
+    "flags": []
+  },
+  "owner": {
+    "value": null,
+    "confidence": 1.0,
+    "source_text": null,
+    "flags": []
+  },
+  "contractor": {
+    "value": "Metro Builders Inc.",
+    "confidence": 1.0,
+    "source_text": "Metro Builders Inc.",
+    "flags": []
+  },
+  "subcontractor": {
+    "value": null,
+    "confidence": 1.0,
+    "source_text": null,
+    "flags": []
+  },
+  "reason": {
+    "value": null,
+    "confidence": 1.0,
+    "source_text": null,
+    "flags": []
+  },
+  "description": {
+    "value": null,
+    "confidence": 1.0,
+    "source_text": null,
+    "flags": []
+  },
+  "total_amount": {
+    "value": "12965.00",
+    "confidence": 1.0,
+    "source_text": "$12,965.00",
+    "flags": []
+  },
+  "currency": {
+    "value": "USD",
+    "confidence": 1.0,
+    "source_text": null,
+    "flags": []
+  },
+  "direction": {
+    "value": "increase",
+    "confidence": 1.0,
+    "source_text": null,
+    "flags": []
+  },
+  "original_contract_sum": {
+    "value": "750000.00",
+    "confidence": 1.0,
+    "source_text": "$750,000.00",
+    "flags": []
+  },
+  "revised_contract_sum": {
+    "value": "762965.00",
+    "confidence": 1.0,
+    "source_text": "$762,965.00",
+    "flags": []
+  },
+  "line_items": [
+    {
+      "description": {
+        "value": "Drywall 5/8 Type X",
+        "confidence": 1.0,
+        "source_text": "Drywall 5/8 Type X",
+        "flags": []
+      },
+      "quantity": {
+        "value": "350.00",
+        "confidence": 1.0,
+        "source_text": "350.00",
+        "flags": []
+      },
+      "unit": {
+        "value": "SQFT",
+        "confidence": 1.0,
+        "source_text": "SQFT",
+        "flags": []
+      },
+      "unit_price": {
+        "value": "14.50",
+        "confidence": 1.0,
+        "source_text": "$14.50",
+        "flags": []
+      },
+      "amount": {
+        "value": "5075.00",
+        "confidence": 1.0,
+        "source_text": "$5,075.00",
+        "flags": []
+      },
+      "cost_code": {
+        "value": "09-21-16",
+        "confidence": 1.0,
+        "source_text": "09-21-16",
+        "flags": []
+      }
+    },
+    {
+      "description": {
+        "value": "Metal Stud Framing",
+        "confidence": 1.0,
+        "source_text": "Metal Stud Framing",
+        "flags": []
+      },
+      "quantity": {
+        "value": "240.00",
+        "confidence": 1.0,
+        "source_text": "240.00",
+        "flags": []
+      },
+      "unit": {
+        "value": "LF",
+        "confidence": 1.0,
+        "source_text": "LF",
+        "flags": []
+      },
+      "unit_price": {
+        "value": "18.00",
+        "confidence": 1.0,
+        "source_text": "$18.00",
+        "flags": []
+      },
+      "amount": {
+        "value": "4320.00",
+        "confidence": 1.0,
+        "source_text": "$4,320.00",
+        "flags": []
+      },
+      "cost_code": {
+        "value": "05-40-00",
+        "confidence": 1.0,
+        "source_text": "05-40-00",
+        "flags": []
+      }
+    },
+    {
+      "description": {
+        "value": "Acoustic Insulation",
+        "confidence": 1.0,
+        "source_text": "Acoustic Insulation",
+        "flags": []
+      },
+      "quantity": {
+        "value": "350.00",
+        "confidence": 1.0,
+        "source_text": "350.00",
+        "flags": []
+      },
+      "unit": {
+        "value": "SQFT",
+        "confidence": 1.0,
+        "source_text": "SQFT",
+        "flags": []
+      },
+      "unit_price": {
+        "value": "6.20",
+        "confidence": 1.0,
+        "source_text": "$6.20",
+        "flags": []
+      },
+      "amount": {
+        "value": "2170.00",
+        "confidence": 1.0,
+        "source_text": "$2,170.00",
+        "flags": []
+      },
+      "cost_code": {
+        "value": "07-21-00",
+        "confidence": 1.0,
+        "source_text": "07-21-00",
+        "flags": []
+      }
+    },
+    {
+      "description": {
+        "value": "Primer & Paint Finish",
+        "confidence": 1.0,
+        "source_text": "Primer & Paint Finish",
+        "flags": []
+      },
+      "quantity": {
+        "value": "350.00",
+        "confidence": 1.0,
+        "source_text": "350.00",
+        "flags": []
+      },
+      "unit": {
+        "value": "SQFT",
+        "confidence": 1.0,
+        "source_text": "SQFT",
+        "flags": []
+      },
+      "unit_price": {
+        "value": "4.00",
+        "confidence": 1.0,
+        "source_text": "$4.00",
+        "flags": []
+      },
+      "amount": {
+        "value": "1400.00",
+        "confidence": 1.0,
+        "source_text": "$1,400.00",
+        "flags": []
+      },
+      "cost_code": {
+        "value": "09-91-23",
+        "confidence": 1.0,
+        "source_text": "09-91-23",
+        "flags": []
+      }
+    }
+  ],
+  "schedule_impact_days": {
+    "value": null,
+    "confidence": 1.0,
+    "source_text": null,
+    "flags": []
+  },
+  "new_completion_date": {
+    "value": null,
+    "confidence": 1.0,
+    "source_text": null,
+    "flags": []
+  },
+  "status": {
+    "value": "pending",
+    "confidence": 1.0,
+    "source_text": "PENDING",
+    "flags": []
+  },
+  "approvals": []
+}

@@ -1,0 +1,118 @@
+{
+  "co_number": {
+    "value": "CO-012",
+    "confidence": 1.0,
+    "source_text": "CO-012",
+    "flags": []
+  },
+  "revision": {
+    "value": null,
+    "confidence": 1.0,
+    "source_text": null,
+    "flags": []
+  },
+  "date_issued": {
+    "value": "2026-04-20",
+    "confidence": 1.0,
+    "source_text": "2026-04-20",
+    "flags": []
+  },
+  "references": {
+    "value": null,
+    "confidence": 1.0,
+    "source_text": null,
+    "flags": []
+  },
+  "project_name": {
+    "value": "Fortress Secure Data Center",
+    "confidence": 1.0,
+    "source_text": "Fortress Secure Data Center",
+    "flags": []
+  },
+  "project_number": {
+    "value": "SDC-990",
+    "confidence": 1.0,
+    "source_text": "SDC-990",
+    "flags": []
+  },
+  "owner": {
+    "value": null,
+    "confidence": 1.0,
+    "source_text": null,
+    "flags": []
+  },
+  "contractor": {
+    "value": "CyberConstructions Inc.",
+    "confidence": 1.0,
+    "source_text": "CyberConstructions Inc.",
+    "flags": []
+  },
+  "subcontractor": {
+    "value": null,
+    "confidence": 1.0,
+    "source_text": null,
+    "flags": []
+  },
+  "reason": {
+    "value": null,
+    "confidence": 1.0,
+    "source_text": null,
+    "flags": []
+  },
+  "description": {
+    "value": "Install biometric physical access turnstiles at main entrance.",
+    "confidence": 1.0,
+    "source_text": "Install biometric physical access turnstiles",
+    "flags": []
+  },
+  "total_amount": {
+    "value": "9200.00",
+    "confidence": 1.0,
+    "source_text": "$9,200.00",
+    "flags": []
+  },
+  "currency": {
+    "value": "USD",
+    "confidence": 1.0,
+    "source_text": null,
+    "flags": []
+  },
+  "direction": {
+    "value": "increase",
+    "confidence": 1.0,
+    "source_text": null,
+    "flags": []
+  },
+  "original_contract_sum": {
+    "value": null,
+    "confidence": 1.0,
+    "source_text": null,
+    "flags": []
+  },
+  "revised_contract_sum": {
+    "value": null,
+    "confidence": 1.0,
+    "source_text": null,
+    "flags": []
+  },
+  "line_items": [],
+  "schedule_impact_days": {
+    "value": null,
+    "confidence": 1.0,
+    "source_text": null,
+    "flags": []
+  },
+  "new_completion_date": {
+    "value": null,
+    "confidence": 1.0,
+    "source_text": null,
+    "flags": []
+  },
+  "status": {
+    "value": "pending",
+    "confidence": 1.0,
+    "source_text": "PENDING",
+    "flags": []
+  },
+  "approvals": []
+}

@@ -1,0 +1,145 @@
+{
+  "co_number": {
+    "value": "CO-009",
+    "confidence": 1.0,
+    "source_text": "CO-009",
+    "flags": []
+  },
+  "revision": {
+    "value": null,
+    "confidence": 1.0,
+    "source_text": null,
+    "flags": []
+  },
+  "date_issued": {
+    "value": "2026-04-18",
+    "confidence": 1.0,
+    "source_text": "2026-04-18",
+    "flags": []
+  },
+  "references": {
+    "value": null,
+    "confidence": 1.0,
+    "source_text": null,
+    "flags": []
+  },
+  "project_name": {
+    "value": "Beacon Point Tower",
+    "confidence": 1.0,
+    "source_text": "Beacon Point Tower",
+    "flags": []
+  },
+  "project_number": {
+    "value": "BPT-33",
+    "confidence": 1.0,
+    "source_text": "BPT-33",
+    "flags": []
+  },
+  "owner": {
+    "value": null,
+    "confidence": 1.0,
+    "source_text": null,
+    "flags": []
+  },
+  "contractor": {
+    "value": "Coastal Builders",
+    "confidence": 1.0,
+    "source_text": "Coastal Builders",
+    "flags": []
+  },
+  "subcontractor": {
+    "value": null,
+    "confidence": 1.0,
+    "source_text": null,
+    "flags": []
+  },
+  "reason": {
+    "value": null,
+    "confidence": 1.0,
+    "source_text": null,
+    "flags": []
+  },
+  "description": {
+    "value": "Delete premium granite countertops in 10 units; replace with standard quartz.",
+    "confidence": 1.0,
+    "source_text": "Delete premium granite countertops",
+    "flags": []
+  },
+  "total_amount": {
+    "value": "-8500.00",
+    "confidence": 1.0,
+    "source_text": "($8,500.00)",
+    "flags": []
+  },
+  "currency": {
+    "value": "USD",
+    "confidence": 1.0,
+    "source_text": null,
+    "flags": []
+  },
+  "direction": {
+    "value": "decrease",
+    "confidence": 1.0,
+    "source_text": "DEDUCTIVE",
+    "flags": []
+  },
+  "original_contract_sum": {
+    "value": "500000.00",
+    "confidence": 1.0,
+    "source_text": "$500,000.00",
+    "flags": []
+  },
+  "revised_contract_sum": {
+    "value": "491500.00",
+    "confidence": 1.0,
+    "source_text": "$491,500.00",
+    "flags": []
+  },
+  "line_items": [],
+  "schedule_impact_days": {
+    "value": null,
+    "confidence": 1.0,
+    "source_text": null,
+    "flags": []
+  },
+  "new_completion_date": {
+    "value": null,
+    "confidence": 1.0,
+    "source_text": null,
+    "flags": []
+  },
+  "status": {
+    "value": "approved",
+    "confidence": 1.0,
+    "source_text": "APPROVED",
+    "flags": []
+  },
+  "approvals": [
+    {
+      "name": {
+        "value": "Lisa Wong",
+        "confidence": 1.0,
+        "source_text": "Lisa Wong",
+        "flags": []
+      },
+      "role": {
+        "value": "Project Manager",
+        "confidence": 1.0,
+        "source_text": "Project Manager",
+        "flags": []
+      },
+      "date": {
+        "value": "2026-04-20",
+        "confidence": 1.0,
+        "source_text": "2026-04-20",
+        "flags": []
+      },
+      "signed": {
+        "value": true,
+        "confidence": 1.0,
+        "source_text": "Signed",
+        "flags": []
+      }
+    }
+  ]
+}

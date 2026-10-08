@@ -1,0 +1,147 @@
+{
+  "co_number": {
+    "value": "CO-006",
+    "confidence": 1.0,
+    "source_text": "CO-006",
+    "flags": []
+  },
+  "revision": {
+    "value": "2",
+    "confidence": 1.0,
+    "source_text": "Rev 2",
+    "flags": []
+  },
+  "date_issued": {
+    "value": "2026-03-20",
+    "confidence": 1.0,
+    "source_text": "2026-03-20",
+    "flags": []
+  },
+  "references": {
+    "value": [
+      "CO-006 Rev 1"
+    ],
+    "confidence": 1.0,
+    "source_text": "CO-006 Rev 1",
+    "flags": []
+  },
+  "project_name": {
+    "value": "Northfield Academy",
+    "confidence": 1.0,
+    "source_text": "Northfield Academy",
+    "flags": []
+  },
+  "project_number": {
+    "value": "NFA-2026",
+    "confidence": 1.0,
+    "source_text": "NFA-2026",
+    "flags": []
+  },
+  "owner": {
+    "value": null,
+    "confidence": 1.0,
+    "source_text": null,
+    "flags": []
+  },
+  "contractor": {
+    "value": "Keystone Builders",
+    "confidence": 1.0,
+    "source_text": "Keystone Builders",
+    "flags": []
+  },
+  "subcontractor": {
+    "value": null,
+    "confidence": 1.0,
+    "source_text": null,
+    "flags": []
+  },
+  "reason": {
+    "value": null,
+    "confidence": 1.0,
+    "source_text": null,
+    "flags": []
+  },
+  "description": {
+    "value": "Final agreed HVAC redesign including rooftop chiller mounts",
+    "confidence": 1.0,
+    "source_text": "Final agreed HVAC redesign",
+    "flags": []
+  },
+  "total_amount": {
+    "value": "16800.00",
+    "confidence": 1.0,
+    "source_text": "$16,800.00",
+    "flags": []
+  },
+  "currency": {
+    "value": "USD",
+    "confidence": 1.0,
+    "source_text": null,
+    "flags": []
+  },
+  "direction": {
+    "value": "increase",
+    "confidence": 1.0,
+    "source_text": null,
+    "flags": []
+  },
+  "original_contract_sum": {
+    "value": null,
+    "confidence": 1.0,
+    "source_text": null,
+    "flags": []
+  },
+  "revised_contract_sum": {
+    "value": null,
+    "confidence": 1.0,
+    "source_text": null,
+    "flags": []
+  },
+  "line_items": [],
+  "schedule_impact_days": {
+    "value": null,
+    "confidence": 1.0,
+    "source_text": null,
+    "flags": []
+  },
+  "new_completion_date": {
+    "value": null,
+    "confidence": 1.0,
+    "source_text": null,
+    "flags": []
+  },
+  "status": {
+    "value": "approved",
+    "confidence": 1.0,
+    "source_text": "APPROVED",
+    "flags": []
+  },
+  "approvals": [
+    {
+      "name": {
+        "value": "Alan Moore",
+        "confidence": 1.0,
+        "source_text": "Alan Moore",
+        "flags": []
+      },
+      "role": {
+        "value": null,
+        "confidence": 1.0,
+        "source_text": null,
+        "flags": []
+      },
+      "date": {
+        "value": "2026-03-22",
+        "confidence": 1.0,
+        "source_text": "2026-03-22",
+        "flags": []
+      },
+      "signed": {
+        "value": true,
+        "confidence": 1.0,
+        "source_text": "Signed",
+        "flags": []
+      }
+    }
+  ]
+}

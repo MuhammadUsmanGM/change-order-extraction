@@ -45,7 +45,7 @@ where = ["src"]
 [tool.ruff]
 line-length = 100
 target-version = "py311"
-include = ["src/**/*.py", "tests/**/*.py"]
+include = ["src/**/*.py", "tests/**/*.py", "eval/**/*.py", "data/**/*.py"]
 
 [tool.ruff.lint]
 select = [
