@@ -118,6 +118,12 @@ def eval_command(
         f"Running evaluation benchmark on 12-doc dataset (provider={provider}, mock={mock})...\n"
     )
 
+    # Ensure working directory is in sys.path
+    import sys
+
+    if str(Path.cwd()) not in sys.path:
+        sys.path.insert(0, str(Path.cwd()))
+
     # Import evaluation harness
     from eval.run_eval import evaluate_pipeline_on_dataset, run_full_evaluation_suite
 

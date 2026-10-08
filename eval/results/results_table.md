@@ -13,7 +13,7 @@ Evaluated across **12 synthetic benchmark documents** covering edge cases (split
 | **Hallucination Rate** | 0.0% | 0.0% | 0.0% |
 | **Expected Calibration Error (ECE)** | 0.2127 | 0.2129 | 0.1305 |
 | **Validation Catch Rate (Defects)** | 100.0% | 100.0% | 100.0% |
-| **Mean Latency per Doc** | 20.0 ms | 19.8 ms | 19.5 ms |
+| **Mean Latency per Doc** | 21.7 ms | 21.7 ms | 21.8 ms |
 | **Cross-Provider Agreement** | N/A | N/A | 100.0% |
 
 ## Confidence Calibration Buckets (Dual-Provider Pipeline)
