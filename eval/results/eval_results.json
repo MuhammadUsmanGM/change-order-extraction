@@ -33,7 +33,7 @@
         "calibration_error": 0.1023
       }
     ],
-    "mean_latency_ms": 21.72,
+    "mean_latency_ms": 25.47,
     "total_tokens_consumed": 7200,
     "agreement_rate": null
   },
@@ -71,7 +71,7 @@
         "calibration_error": 0.1026
       }
     ],
-    "mean_latency_ms": 21.67,
+    "mean_latency_ms": 23.92,
     "total_tokens_consumed": 7200,
     "agreement_rate": null
   },
@@ -109,7 +109,7 @@
         "calibration_error": 0.0023
       }
     ],
-    "mean_latency_ms": 21.8,
+    "mean_latency_ms": 21.45,
     "total_tokens_consumed": 7200,
     "agreement_rate": 1.0
   }
