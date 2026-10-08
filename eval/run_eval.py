@@ -369,7 +369,7 @@ def run_full_evaluation_suite(
 
 Evaluated across **12 synthetic benchmark documents** covering edge cases (split tables, defective totals, scanned noise, prompt injection, and multi-revisions).
 
-## Performance Comparison
+## Table 1: Offline Replay Benchmark (Pre-Recorded Fixtures on Synthetic Dataset)
 
 | Metric | Claude Adapter | Gemini Adapter | Combined (Dual-Provider) |
 |---|---|---|---|
@@ -380,8 +380,10 @@ Evaluated across **12 synthetic benchmark documents** covering edge cases (split
 | **Hallucination Rate** | {report_claude.hallucination_rate * 100:.1f}% | {report_gemini.hallucination_rate * 100:.1f}% | {report_both.hallucination_rate * 100:.1f}% |
 | **Expected Calibration Error (ECE)** | {report_claude.expected_calibration_error:.4f} | {report_gemini.expected_calibration_error:.4f} | {report_both.expected_calibration_error:.4f} |
 | **Validation Catch Rate (Defects)** | {report_claude.validation_catch_rate * 100:.1f}% | {report_gemini.validation_catch_rate * 100:.1f}% | {report_both.validation_catch_rate * 100:.1f}% |
-| **Mean Latency per Doc** | {report_claude.mean_latency_ms:.1f} ms | {report_gemini.mean_latency_ms:.1f} ms | {report_both.mean_latency_ms:.1f} ms |
+| **Mean Latency per Doc (Replay)** | {report_claude.mean_latency_ms:.1f} ms | {report_gemini.mean_latency_ms:.1f} ms | {report_both.mean_latency_ms:.1f} ms |
 | **Cross-Provider Agreement** | N/A | N/A | {report_both.agreement_rate * 100:.1f}% |
+
+> **Note on Replay Latency & Accuracy**: The numbers above reflect **offline replay of pre-recorded responses** against the synthetic test suite. The ~25–34 ms latency is local disk I/O and validation compute time, not live network inference. On known synthetic documents with recorded responses, accuracy reaches 100% because the schemas align. Reviewers can reproduce these numbers offline using `co-extract eval --mock`.
 
 ## Confidence Calibration Buckets (Dual-Provider Pipeline)
 

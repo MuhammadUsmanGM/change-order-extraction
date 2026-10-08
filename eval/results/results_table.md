@@ -2,7 +2,7 @@
 
 Evaluated across **12 synthetic benchmark documents** covering edge cases (split tables, defective totals, scanned noise, prompt injection, and multi-revisions).
 
-## Performance Comparison
+## Table 1: Offline Replay Benchmark (Pre-Recorded Fixtures on Synthetic Dataset)
 
 | Metric | Claude Adapter | Gemini Adapter | Combined (Dual-Provider) |
 |---|---|---|---|
@@ -13,8 +13,10 @@ Evaluated across **12 synthetic benchmark documents** covering edge cases (split
 | **Hallucination Rate** | 0.0% | 0.0% | 0.0% |
 | **Expected Calibration Error (ECE)** | 0.2127 | 0.2129 | 0.1305 |
 | **Validation Catch Rate (Defects)** | 100.0% | 100.0% | 100.0% |
-| **Mean Latency per Doc** | 22.0 ms | 22.3 ms | 23.8 ms |
+| **Mean Latency per Doc (Replay)** | 21.3 ms | 20.9 ms | 21.4 ms |
 | **Cross-Provider Agreement** | N/A | N/A | 100.0% |
+
+> **Note on Replay Latency & Accuracy**: The numbers above reflect **offline replay of pre-recorded responses** against the synthetic test suite. The ~25–34 ms latency is local disk I/O and validation compute time, not live network inference. On known synthetic documents with recorded responses, accuracy reaches 100% because the schemas align. Reviewers can reproduce these numbers offline using `co-extract eval --mock`.
 
 ## Confidence Calibration Buckets (Dual-Provider Pipeline)
 

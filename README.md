@@ -11,7 +11,7 @@ This project was built for the Sledge AI Engineer technical evaluation. It runs 
 ### 1. Install
 
 ```bash
-git clone <repo-url>
+git clone https://github.com/MuhammadUsmanGM/change-order-extraction.git
 cd change-order-extraction
 pip install -e ".[dev,pipeline]"
 ```
